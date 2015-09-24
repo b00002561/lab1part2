@@ -76,6 +76,8 @@ int main(void)
 
     cout << "Total Circle Area: " << circ.getArea() << endl;
 
+    cout << "Total area of all objects:" << circ.getArea()+Rec.getArea()+Tri.getArea() << endl;
+
 
     return 0;
 }
